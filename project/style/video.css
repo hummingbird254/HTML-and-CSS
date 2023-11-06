@@ -1,0 +1,51 @@
+.user{
+	display: grid;
+	grid-template-rows: 1fr 100px;
+	row-gap: 10px;
+
+	
+}
+.thumb-pic{
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px rgba(0, 0, 1, 0.3);
+}
+.prof-pic{
+	width: 40px;
+	border-radius: 20px;
+
+}
+.video-info{
+	display: grid;
+	grid-template-columns: 40px 1fr;
+	column-gap: 10px;
+	
+
+	
+}
+.more-info{
+	
+}
+.title{
+	font-family: Roboto;
+	font-weight: 700;
+	font-size: 18px;
+}
+.name{
+	margin-top: 10px;
+}
+.stats,.name{
+	font: grey;
+	font-family: Roboto;
+	font-size: 12px;
+	line-height: 18px;
+}
+
+
+.video-grid{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	column-gap: 10px;
+	row-gap: 30px;
+}
